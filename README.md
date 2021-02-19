@@ -21,3 +21,8 @@
 ou
 
     ng serve
+
+
+## Tela inicial
+
+![](img/Captura%20de%20tela%20de%202021-02-19%2020-14-01.png)
