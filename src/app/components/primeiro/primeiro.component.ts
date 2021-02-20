@@ -12,6 +12,13 @@ export class PrimeiroComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+
+  }
+
+  clique(): void {
+
+    console.log('Clicou no botão')
   }
 
 }
