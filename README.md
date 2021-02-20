@@ -31,3 +31,8 @@ ou
 ## Adicionando Material ao Projeto
 
     ng add @angular/material
+
+
+## Criando um componente Angular
+
+    ng g c components/meuComponente
