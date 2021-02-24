@@ -21,4 +21,9 @@ export class PrimeiroComponent implements OnInit {
     console.log('Clicou no botão')
   }
 
+  alerta(): void{
+
+    alert('Alerta ativado')
+  }
+
 }
