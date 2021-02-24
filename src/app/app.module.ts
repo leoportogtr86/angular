@@ -7,14 +7,16 @@ import {FormsModule} from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PrimeiroComponent } from './components/primeiro/primeiro.component';
 import { SegundoComponent } from './components/segundo/segundo.component';
-import { HeaderComponent } from './components/template/header/header.component'
+import { HeaderComponent } from './components/template/header/header.component';
+import { RevisaoTsComponent } from './components/revisao-ts/revisao-ts.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     PrimeiroComponent,
     SegundoComponent,
-    HeaderComponent
+    HeaderComponent,
+    RevisaoTsComponent
   ],
   imports: [
     BrowserModule,
