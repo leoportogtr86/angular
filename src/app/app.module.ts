@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import {FormsModule} from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PrimeiroComponent } from './components/primeiro/primeiro.component';
-import { SegundoComponent } from './components/segundo/segundo.component'
+import { SegundoComponent } from './components/segundo/segundo.component';
+import { HeaderComponent } from './components/template/header/header.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     PrimeiroComponent,
-    SegundoComponent
+    SegundoComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
