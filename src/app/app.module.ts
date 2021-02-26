@@ -12,7 +12,9 @@ import { SegundoComponent } from './components/segundo/segundo.component';
 import { HeaderComponent } from './components/template/header/header.component';
 import { RevisaoTsComponent } from './components/revisao-ts/revisao-ts.component';
 import { ResponsividadeComponent } from './components/responsividade/responsividade.component';
-import { ContadorComponent } from './components/contador/contador.component'
+import { ContadorComponent } from './components/contador/contador.component';
+import { ToDoComponent } from './components/to-do/to-do.component';
+import { StringInterpolationComponent } from './components/data-binding/string-interpolation/string-interpolation.component'
 
 
 
@@ -25,6 +27,8 @@ import { ContadorComponent } from './components/contador/contador.component'
     RevisaoTsComponent,
     ResponsividadeComponent,
     ContadorComponent,
+    ToDoComponent,
+    StringInterpolationComponent,
 
   ],
   imports: [

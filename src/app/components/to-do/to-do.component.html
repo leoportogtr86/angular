@@ -1,0 +1,64 @@
+<div class="container m-5 rounded mb-5">
+
+
+    <div class="row">
+        <div class="col">
+
+            <a>
+                <i class="material-icons">add</i>
+            </a>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+
+            <h1 class="text-center">To Do List Angular <span><i class="material-icons">list</i></span></h1>
+
+
+
+        </div>
+    </div>
+
+    <div class="row form ml-5">
+        <div class="col">
+
+            <form action="">
+
+                <input class="m-5" type="text" name="tarefa" placeholder="Escreva sua tarefa...">
+                <span>
+                    <a>
+                        <i class="material-icons send">send</i>
+                    </a>
+                </span>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col">
+
+
+            <ul>
+                <li *ngFor="let tarefa of tarefas">
+                    <p class=" {{tarefa.classe}} "> <span>
+                            <a>
+                                <i class="material-icons unchecked mr-1">
+                                    {{tarefa.icon}}
+                                </i>
+                            </a>
+                        </span>{{tarefa.titulo}}</p>
+
+                </li>
+
+            </ul>
+
+
+        </div>
+    </div>
+
+
+</div>
