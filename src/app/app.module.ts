@@ -8,7 +8,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PrimeiroComponent } from './components/primeiro/primeiro.component';
 import { SegundoComponent } from './components/segundo/segundo.component';
 import { HeaderComponent } from './components/template/header/header.component';
-import { RevisaoTsComponent } from './components/revisao-ts/revisao-ts.component'
+import { RevisaoTsComponent } from './components/revisao-ts/revisao-ts.component';
+import { ResponsividadeComponent } from './components/responsividade/responsividade.component'
+
+
 
 @NgModule({
   declarations: [
@@ -16,7 +19,8 @@ import { RevisaoTsComponent } from './components/revisao-ts/revisao-ts.component
     PrimeiroComponent,
     SegundoComponent,
     HeaderComponent,
-    RevisaoTsComponent
+    RevisaoTsComponent,
+    ResponsividadeComponent
   ],
   imports: [
     BrowserModule,

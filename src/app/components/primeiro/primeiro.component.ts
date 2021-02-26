@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import {PrimeiroService} from './primeiro.service'
+
 @Component({
   selector: 'app-primeiro',
   templateUrl: './primeiro.component.html',
@@ -9,16 +11,18 @@ export class PrimeiroComponent implements OnInit {
 
   nome: string = "Leo Porto"
 
-  constructor() { }
+  constructor(private primeiroService: PrimeiroService) { }
 
   ngOnInit(): void {
+
+    
 
 
   }
 
   clique(): void {
 
-    console.log('Clicou no botão')
+    console.log(this.primeiroService.getTest())
   }
 
   alerta(): void{
