@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class PropertyBindingComponent implements OnInit {
 
   class: string = "text-center text-info bg-light rounded"
+  desabilitado: boolean = true
 
   constructor() { }
 
