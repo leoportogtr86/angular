@@ -13,6 +13,8 @@ export class PropertyBindingComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+    
   }
 
 }

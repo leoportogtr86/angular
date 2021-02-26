@@ -15,7 +15,8 @@ import { ResponsividadeComponent } from './components/responsividade/responsivid
 import { ContadorComponent } from './components/contador/contador.component';
 import { ToDoComponent } from './components/to-do/to-do.component';
 import { StringInterpolationComponent } from './components/data-binding/string-interpolation/string-interpolation.component';
-import { PropertyBindingComponent } from './components/data-binding/property-binding/property-binding/property-binding.component'
+import { PropertyBindingComponent } from './components/data-binding/property-binding/property-binding/property-binding.component';
+import { EventBindingComponent } from './components/data-binding/event-binding/event-binding/event-binding.component'
 
 
 
@@ -31,6 +32,7 @@ import { PropertyBindingComponent } from './components/data-binding/property-bin
     ToDoComponent,
     StringInterpolationComponent,
     PropertyBindingComponent,
+    EventBindingComponent,
 
   ],
   imports: [
