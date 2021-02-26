@@ -10,10 +10,13 @@ import {PrimeiroService} from './primeiro.service'
 export class PrimeiroComponent implements OnInit {
 
   nome: string = "Leo Porto"
+  title: string = "Primeiro Componente"
 
   constructor(private primeiroService: PrimeiroService) { }
 
   ngOnInit(): void {
+
+    
 
     
 
@@ -23,6 +26,21 @@ export class PrimeiroComponent implements OnInit {
   clique(): void {
 
     console.log(this.primeiroService.getTest())
+    this.title = "Texto do Título Alterado"
+
+    setTimeout(() => {
+
+    this.title = "retornando..."
+
+      
+    }, 2000);
+
+    setTimeout(() => {
+
+    this.title = "Primeiro Componente"
+
+      
+    }, 4000);
   }
 
   alerta(): void{
