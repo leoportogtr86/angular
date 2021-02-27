@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class EventBindingComponent implements OnInit {
 
   texto: string = "Texto a ser modificado."
+  text: string = ""
 
   constructor() { }
 
@@ -18,5 +19,11 @@ export class EventBindingComponent implements OnInit {
   alterarTexto(): void{
 
     this.texto = "Texto mudou..."
+  }
+
+  modificaTexto(): void{
+
+    console.log(this.text)
+
   }
 }

@@ -5,3 +5,12 @@
 <h2 class="text-center text-danger">{{texto}}</h2>
 
 <button class="btn btn-light btn-block" (click)="alterarTexto()">Clique para alterar o texto</button>
+
+
+<div class="text-center">
+
+    <input type="text" class="text-center m-5" [(ngModel)]="text" (input)="modificaTexto()">
+
+</div>
+
+<h3 class="text-center text-primary">{{text}}</h3>
