@@ -1,4 +1,4 @@
-<div class="flex justify-center flex-row">
+<div class="flex justify-center flex-col">
 
 
     <div [ngSwitch]="x" class="div">
@@ -12,6 +12,16 @@
 
 
     </div>
+
+    <h1 class="title">{{x}}</h1>
+
+    <div class="flex">
+        <button (click)="menos()">-</button>
+        <button (click)="mais()">+</button>
+
+    </div>
+
+
 
 
 </div>

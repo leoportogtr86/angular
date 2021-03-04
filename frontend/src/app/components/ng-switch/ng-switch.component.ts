@@ -14,4 +14,16 @@ export class NgSwitchComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  mais(): void{
+
+    this.x++
+  }
+
+
+  menos(): void{
+
+    this.x--
+  }
+
 }
