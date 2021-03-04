@@ -9,9 +9,14 @@ export class TwoWayComponent implements OnInit {
 
   texto: string = ""
 
+  
+
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  
 
 }

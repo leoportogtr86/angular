@@ -18,7 +18,8 @@ import { StringInterpolationComponent } from './components/data-binding/string-i
 import { PropertyBindingComponent } from './components/data-binding/property-binding/property-binding/property-binding.component';
 import { EventBindingComponent } from './components/data-binding/event-binding/event-binding/event-binding.component'
 import {TarefasService} from './components/to-do/tarefas.service';
-import { TwoWayComponent } from './components/data-binding/two-way/two-way.component'
+import { TwoWayComponent } from './components/data-binding/two-way/two-way.component';
+import { NgIfComponent } from './components/ng-if/ng-if.component'
 
 
 @NgModule({
@@ -35,6 +36,7 @@ import { TwoWayComponent } from './components/data-binding/two-way/two-way.compo
     PropertyBindingComponent,
     EventBindingComponent,
     TwoWayComponent,
+    NgIfComponent,
 
   ],
   imports: [

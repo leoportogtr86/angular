@@ -28,3 +28,27 @@ body { margin: 0; font-family: sans-serif; background-color: #222;}
 
     color: rgb(167, 59, 59);
 }
+
+.blue{
+
+    color: blue;
+}
+
+.flex{
+
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.flex-col {
+
+    flex-direction: column;
+}
+
+
+.justify-contend{
+
+    justify-content: center;
+}

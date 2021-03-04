@@ -11,6 +11,7 @@
     flex-direction: column;
 }
 
+
 .justify-contend{
 
     justify-content: center;
@@ -28,4 +29,10 @@
     color: wheat;
     font-size: 25px;
     margin: 40px;
+}
+
+.subtitle{
+
+    color: rgb(182, 72, 72);
+    margin: 20px;
 }
