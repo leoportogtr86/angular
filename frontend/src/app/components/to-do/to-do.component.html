@@ -1,0 +1,90 @@
+<div class="container m-5 rounded mb-5">
+
+
+    <div class="row">
+        <div class="col">
+
+            <a>
+                <i class="material-icons">add</i>
+            </a>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+
+            <h1 class="text-center">To Do List Angular <span><i class="material-icons">list</i></span></h1>
+
+
+
+        </div>
+    </div>
+
+    <div class="row form ml-5">
+        <div class="col">
+
+            <form action="">
+
+                <input class="m-5" type="text" name="tarefa" placeholder="Escreva sua tarefa..."
+                    (input)="alterarTarefa($event)" [value]="tarefaInput">
+                <span>
+                    <a (click)="criarTarefa()">
+                        <i class="material-icons send">send</i>
+                    </a>
+                </span>
+
+
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col">
+
+
+            <ul class="">
+                <li *ngFor="let tarefa of tarefas" class="row">
+                    <p class="flex flex-row">
+                        <a>
+                            <i class="material-icons unchecked mr-1">
+                                radio_button_unchecked
+                            </i>
+                        </a>
+
+                        <span (click)="check($event)" class={{tarefa.estado}}>{{tarefa.titulo}}</span>
+
+
+
+                    </p>
+
+
+
+                    <div class="flex flex-row float-right">
+
+                        <span>
+                            <a>
+                                <i class="material-icons edit">mode_edit</i>
+                            </a>
+                        </span>
+
+                        <span>
+                            <a>
+                                <i class="material-icons red">delete</i>
+                            </a>
+                        </span>
+
+                    </div>
+
+                </li>
+
+            </ul>
+
+
+        </div>
+    </div>
+
+
+
+</div>

@@ -1,0 +1,31 @@
+.flex{
+
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.flex-col {
+
+    flex-direction: column;
+}
+
+.justify-contend{
+
+    justify-content: center;
+}
+
+.input{
+
+    width: 200px;
+    border-radius: 7px;
+    height: 40px;
+}
+
+.texto{
+
+    color: wheat;
+    font-size: 25px;
+    margin: 40px;
+}

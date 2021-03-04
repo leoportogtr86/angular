@@ -1,0 +1,115 @@
+.container{
+
+    background-color: #373737ff;
+    color: #c7a969ff;
+    font-family: 'Trebuchet MS';
+    border-radius: 25px;
+}
+
+i{
+
+    font-size: 50px;
+    margin-left: 7px;
+    vertical-align: middle;    
+}
+
+.feito{
+
+    text-decoration: line-through;
+}
+
+.form input{
+
+    border: none;
+    background-color:  #373737ff;
+    border-bottom: 1px solid #c7a969ff;   
+    outline: none;
+    font-size: 18px;
+    color: #c7a969ff;
+    width: 30%;    
+}
+
+ul li{
+
+    text-decoration: none;
+    list-style: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+ul li:hover{
+    
+    color: rgb(211, 158, 44);
+
+}
+
+.float-right{
+
+    float: right;
+    position: absolute;
+    right: 200px;
+}
+
+::placeholder{
+
+    color: #c7a969ff;
+}
+
+.send {
+
+    font-size: 20px;
+    color: #c7a969ff;
+    cursor: pointer;
+}
+
+.unchecked {
+
+    font-size: 20px;
+    color: #c7a969ff;
+    cursor: pointer;
+
+
+}
+
+.checked{
+
+    font-size: 20px;
+    color: #c7a969ff;
+    cursor: pointer;
+    color: rgb(91, 139, 19);
+
+}
+
+.flex{
+
+    display: flex;
+}
+
+.flex-row{
+
+    flex-direction: row;
+}
+
+.flex-space-between{
+
+    justify-content: space-between;
+}
+
+.red{
+
+    color: rgb(224, 106, 106);
+    font-size: 25px;
+}
+
+
+.edit{
+
+    color: rgb(228, 145, 51);
+    font-size: 25px;
+}
+
+.red:hover{
+
+    color: rgb(211, 69, 69);
+
+}
