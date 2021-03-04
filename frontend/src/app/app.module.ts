@@ -19,7 +19,8 @@ import { PropertyBindingComponent } from './components/data-binding/property-bin
 import { EventBindingComponent } from './components/data-binding/event-binding/event-binding/event-binding.component'
 import {TarefasService} from './components/to-do/tarefas.service';
 import { TwoWayComponent } from './components/data-binding/two-way/two-way.component';
-import { NgIfComponent } from './components/ng-if/ng-if.component'
+import { NgIfComponent } from './components/ng-if/ng-if.component';
+import { NgSwitchComponent } from './components/ng-switch/ng-switch.component'
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import { NgIfComponent } from './components/ng-if/ng-if.component'
     EventBindingComponent,
     TwoWayComponent,
     NgIfComponent,
+    NgSwitchComponent,
 
   ],
   imports: [
