@@ -20,7 +20,10 @@ import { EventBindingComponent } from './components/data-binding/event-binding/e
 import {TarefasService} from './components/to-do/tarefas.service';
 import { TwoWayComponent } from './components/data-binding/two-way/two-way.component';
 import { NgIfComponent } from './components/ng-if/ng-if.component';
-import { NgSwitchComponent } from './components/ng-switch/ng-switch.component'
+import { NgSwitchComponent } from './components/ng-switch/ng-switch.component';
+import { NgForComponent } from './components/ng-for/ng-for.component'
+
+import {FuncionariosService} from './components/ng-for/funcionarios.service'
 
 
 @NgModule({
@@ -39,6 +42,7 @@ import { NgSwitchComponent } from './components/ng-switch/ng-switch.component'
     TwoWayComponent,
     NgIfComponent,
     NgSwitchComponent,
+    NgForComponent,
 
   ],
   imports: [
@@ -49,7 +53,7 @@ import { NgSwitchComponent } from './components/ng-switch/ng-switch.component'
     HttpClientModule
 
   ],
-  providers: [TarefasService],
+  providers: [TarefasService, FuncionariosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

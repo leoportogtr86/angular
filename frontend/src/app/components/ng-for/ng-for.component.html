@@ -1,0 +1,38 @@
+<h1 class="title center">Usando o ngFor</h1>
+
+
+<div class="flex justify-center">
+
+
+
+    <ul class="flex flex-wrap">
+        <li *ngFor="let funcionario of funcionarios">
+
+
+            <div class="card">
+                <div class="card-header">
+
+
+                </div>
+                <div class="card-body">
+
+                    <p><strong>Nome:</strong> {{funcionario.nome}} {{funcionario.sobrenome}}</p>
+                    <p><strong>Email:</strong> {{funcionario.email}}</p>
+                    <p><strong>Gênero:</strong> {{funcionario.genero}}</p>
+                    <p><strong>Cidade:</strong> {{funcionario.cidade}}</p>
+                    <p><strong>País:</strong> {{funcionario.pais}}</p>
+                    <p><strong>Empresa:</strong> {{funcionario.empresa}}</p>
+                    <p><strong>Salário:</strong> {{funcionario.salario}}</p>
+
+
+
+
+
+                </div>
+            </div>
+        </li>
+    </ul>
+
+
+
+</div>

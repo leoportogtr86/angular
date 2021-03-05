@@ -1,0 +1,15 @@
+.card{
+
+    border: 1px solid gray;
+    margin: 10px;
+    width: 400px;
+
+    
+}
+
+p{
+
+    font-family: sans-serif;
+    color: purple;
+    margin: 10px;
+}
