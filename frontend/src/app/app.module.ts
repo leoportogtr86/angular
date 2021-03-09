@@ -24,7 +24,8 @@ import { NgSwitchComponent } from './components/ng-switch/ng-switch.component';
 import { NgForComponent } from './components/ng-for/ng-for.component'
 
 import {FuncionariosService} from './components/ng-for/funcionarios.service';
-import { NgClassComponent } from './components/ng-class/ng-class.component'
+import { NgClassComponent } from './components/ng-class/ng-class.component';
+import { NgStyleComponent } from './components/ng-style/ng-style.component'
 
 
 @NgModule({
@@ -45,6 +46,7 @@ import { NgClassComponent } from './components/ng-class/ng-class.component'
     NgSwitchComponent,
     NgForComponent,
     NgClassComponent,
+    NgStyleComponent,
 
   ],
   imports: [
