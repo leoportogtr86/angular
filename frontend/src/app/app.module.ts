@@ -23,7 +23,8 @@ import { NgIfComponent } from './components/ng-if/ng-if.component';
 import { NgSwitchComponent } from './components/ng-switch/ng-switch.component';
 import { NgForComponent } from './components/ng-for/ng-for.component'
 
-import {FuncionariosService} from './components/ng-for/funcionarios.service'
+import {FuncionariosService} from './components/ng-for/funcionarios.service';
+import { NgClassComponent } from './components/ng-class/ng-class.component'
 
 
 @NgModule({
@@ -43,6 +44,7 @@ import {FuncionariosService} from './components/ng-for/funcionarios.service'
     NgIfComponent,
     NgSwitchComponent,
     NgForComponent,
+    NgClassComponent,
 
   ],
   imports: [

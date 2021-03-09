@@ -1,0 +1,28 @@
+.fonte-grande{
+
+    font-size: 30px;
+}
+
+.bg-red{
+
+    background-color: red;
+}
+
+.rounded{
+
+    border-radius: 15px;
+}
+
+.w-80{
+
+    width: 80%;
+}
+
+.m-20{
+
+    margin: 20px;
+}
+
+.p-20{
+    padding: 20px;
+}

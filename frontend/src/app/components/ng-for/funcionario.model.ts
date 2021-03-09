@@ -9,6 +9,5 @@ export interface Funcionario{
     pais: string
     empresa: string
     salario: number
-
     
 }
