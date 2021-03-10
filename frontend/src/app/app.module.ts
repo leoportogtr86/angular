@@ -25,7 +25,8 @@ import { NgForComponent } from './components/ng-for/ng-for.component'
 
 import {FuncionariosService} from './components/ng-for/funcionarios.service';
 import { NgClassComponent } from './components/ng-class/ng-class.component';
-import { NgStyleComponent } from './components/ng-style/ng-style.component'
+import { NgStyleComponent } from './components/ng-style/ng-style.component';
+import { CapturandoEventosComponent } from './components/capturando-eventos/capturando-eventos.component';
 
 
 @NgModule({
@@ -47,6 +48,7 @@ import { NgStyleComponent } from './components/ng-style/ng-style.component'
     NgForComponent,
     NgClassComponent,
     NgStyleComponent,
+    CapturandoEventosComponent,
 
   ],
   imports: [
